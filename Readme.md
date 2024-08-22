@@ -27,7 +27,7 @@ You can install the required libraries using the following command:
 pip install torch torchvision opencv-python matplotlib numpy pandas
 ```
 
-#Usage
+# Usage
 1. Clone the Repository
 ```bash
 git clone https://github.com/your_username/Traffic-Road-Object-Detection.git
@@ -39,7 +39,7 @@ cd Traffic-Road-Object-Detection
 python train_yolov5.py
 ```
 
-#Project Structure
+# Project Structure
 ```bash
 Traffic-Road-Object-Detection/
 ├── data/                     # Directory for datasets
@@ -55,17 +55,17 @@ Traffic-Road-Object-Detection/
 - Ensure the dataset is organized into train and val folders with images and labels.
 - Annotations should be in YOLO format with bounding boxes for the "car" class.
 
-#Model Training
+# Model Training
 The model is trained using YOLOv5 with data augmentation techniques such as rotation, scaling, and color adjustments to enhance data variability.
 
-#Results
+# Results
 - The model achieved high accuracy in detecting cars, with a peak F1 score at a confidence level of 0.7.
 - Confusion Matrix and F1-Confidence Curve visualizations are included to evaluate performance.
 
-#Future Work
+# Future Work
 - Explore additional data augmentation techniques.
 - Implement model pruning and quantization for faster inference.
 - Deploy the model for real-time traffic monitoring applications.
 
-#License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details. Feel free to customize the sections as needed to fit your project specifics.
