@@ -1,0 +1,9 @@
+train: C:\Users\jrola\Documents\Traffic Road Object Detection project\Data\train\images
+val: C:\Users\jrola\Documents\Traffic Road Object Detection project\Data\val\images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['car']
+
